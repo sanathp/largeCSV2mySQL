@@ -12,7 +12,7 @@
 </br>
 <form class="form-horizontal"action="csv2sql.php" method="post">
     <div class="form-group">
-        <label for="mysql" class="control-label col-xs-2">Mysql addrress</label>
+        <label for="mysql" class="control-label col-xs-2">Mysql Server address/Host name</label>
 		<div class="col-xs-3">
         <input type="text" class="form-control" name="mysql" id="mysql" placeholder="">
 		</div>
@@ -99,12 +99,12 @@ $count2=(int)$r2['count'];
 $count=$count2-$count1;
 if($count>0)
 echo "Success";
-echo "<b> total $count records are added to the table $table <b> ";
+echo "<b> total $count records have been added to the table $table </b> ";
 
 
 }
 else{
-echo "Username , Database name , sql name , File name are the Mandatory Fields";
+echo "Mysql Server address/Host name ,Username , Database name ,Table name , File name are the Mandatory Fields";
 }
 
 ?>
