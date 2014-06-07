@@ -109,15 +109,15 @@ echo "Mysql Server address/Host name ,Username , Database name ,Table name , Fil
 
 ?>
 <h3> Instructions </h3>
-1.  Keep this php file and You csv file in one folder <br>
+1.  Keep this php file and Your csv file in one folder <br>
 2.  Create a table in your mysql database to which you want to import <br>
-3.  Open the php file from you you localhost server <br>
+3.  Open the php file from your localhost server <br>
 4.  Enter all the fields  <br>
 5.  click on upload button  </p>
 
 <h3> Facing Problems ? Some of the reasons can be the ones shown below </h3>
-1) Check if the table is created and the datatype of each column matches with the data in csv<br>
-2) If fields in your csv are not separated by commas go to Line 117 of php file and change query<br>
-3) If each tuple in your csv are not one below other(i.e not seperated by a new line) got line 117 of php file and change query<br>
+1) Check if the table to which you want to import is created and the datatype of each column matches with the data in csv<br>
+2) If fields in your csv are not separated by commas go to Line 117 of php file and change the query<br>
+3) If each tuple in your csv are not one below other(i.e not seperated by a new line) got line 117 of php file and change the query<br>
 
 </html>
