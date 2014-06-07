@@ -12,7 +12,7 @@
 </br>
 <form class="form-horizontal"action="csv2sql.php" method="post">
     <div class="form-group">
-        <label for="mysql" class="control-label col-xs-2">Mysql Server address/Host name</label>
+        <label for="mysql" class="control-label col-xs-2">Mysql Server address (or)<br>Host name</label>
 		<div class="col-xs-3">
         <input type="text" class="form-control" name="mysql" id="mysql" placeholder="">
 		</div>
