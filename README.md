@@ -18,4 +18,3 @@ The fastest way to import a CSV file is to use Mysql LOAD DATA command.
 
 For More info check my blog post http://medium.com/@sanathkumar/e6d639b790ab
 
-You can mail me at pasumarthy.sanath@gmail.com if you have any issues using the php file
